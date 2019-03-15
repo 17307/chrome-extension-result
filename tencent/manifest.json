@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "tencent cos",
+    "version": "1.0",
+    "description": "tencent cos",
+    "icons": {
+        "16": "source/iconfinder_tencent_216757.png",
+        "48": "source/iconfinder_tencent_216757.png",
+        "128": "source/iconfinder_tencent_216757.png"
+      },
+    "browser_action": {
+        "default_title": "tencent cos",
+        "default_icon":"source/iconfinder_tencent_216757.png"
+    },
+    "background":
+    {
+        "page": "background.html"
+    },
+    "permissions":
+    [
+        "contextMenus",
+        "http://*/*", 
+        "https://*/*"
+        ]
+}

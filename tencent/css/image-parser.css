@@ -1,0 +1,95 @@
+.my-img-parser .imgp-alert-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: fixed;
+    z-index: 1000;
+    top: 50px;
+    left: 10px;
+    padding-right: 35px;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+    opacity: 1;
+}
+
+    .my-img-parser .imgp-alert-box .close {
+        position: relative;
+        top: -2px;
+        right: -21px;
+        color: inherit;
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        float: right;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1;
+        color: #000000;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        opacity: .2;
+    }
+
+        .my-img-parser .imgp-alert-box .close:hover,
+        .my-img-parser .imgp-alert-box .close:focus {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+            filter: alpha(opacity=50);
+            opacity: .5;
+        }
+
+    .my-img-parser .imgp-alert-box.imgp-alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+    .my-img-parser .imgp-alert-box.imgp-alert-warning {
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border-color: #faebcc;
+    }
+
+
+.my-img-parser button,
+.my-img-parser input,
+.my-img-parser optgroup,
+.my-img-parser select,
+.my-img-parser textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.my-img-parser button {
+    overflow: visible;
+}
+
+.my-img-parser button,
+.my-img-parser select {
+    text-transform: none;
+}
+
+.my-img-parser button,
+.my-img-parser html input[type=button],
+.my-img-parser input[type=reset],
+.my-img-parser input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+    .my-img-parser button[disabled],
+    .my-img-parser html input[disabled] {
+        cursor: default;
+    }
+
+    .my-img-parser button::-moz-focus-inner,
+    .my-img-parser input::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
