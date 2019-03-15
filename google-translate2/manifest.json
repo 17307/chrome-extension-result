@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "translate",
+    "version": "1.0",
+    "description": "google-translate",
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_title": "translate"
+        
+    },
+
+    "web_accessible_resources": ["js/inject.js"],
+
+    "content_scripts": [
+        {
+            "matches": ["*://translate.google.cn/*","*://translate.google.com/*"],
+            "js": ["js/main-inject.js"],
+            "run_at": "document_end"
+        }
+    ]
+    
+
+}
