@@ -23,7 +23,7 @@ function injectText(){
 
     temp = document.createElement('button');
     temp.textContent = 'Translate';
-    temp.id = 'aiyaya'
+    temp.id = 'my-trans'
     temp.className="tlid-input-button input-button header-button tlid-input-button-text"
     temp.style="padding-left: 16px; height: 24px;left: 10px;"
     document.getElementsByClassName('tlid-result-view cllist')[0].append(temp);

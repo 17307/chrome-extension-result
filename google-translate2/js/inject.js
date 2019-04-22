@@ -5,7 +5,7 @@ function a2(){
     document.getElementById('source_text').value = '';
 }
 
-function al(){
+function a1(){
     
     message = document.getElementById('source_text')
     // console.log(message.value)
@@ -19,7 +19,7 @@ function al(){
 var button_clear = document.getElementById('clear');
 button_clear.onclick = a2;
 
-var button_b = document.getElementById('aiyaya');
+var button_b = document.getElementById('my-trans');
 // button_b.addEventListener('click',al);
 button_b.onclick = a1;
 
