@@ -14,18 +14,20 @@ function injectText(){
 
     var temp = document.createElement('input');
     temp.type = 'text';
-    temp.value = '';
+    // temp.value = '';
     temp.id = 'source_text';
     temp.className = 'tlid-source-target main-header'
     temp.style = "border-bottom-width:0;height: 20px;padding-top: 0px;width: 50%; margin-top: 8px;"
     document.getElementsByClassName('tlid-result-view cllist')[0].append(temp);
+    // document.body.append(temp);
 
     temp = document.createElement('button');
     temp.textContent = 'Translate';
-    temp.id = 'translate'
+    temp.id = 'aiyaya'
     temp.className="tlid-input-button input-button header-button tlid-input-button-text"
     temp.style="padding-left: 16px; height: 24px;left: 10px;"
     document.getElementsByClassName('tlid-result-view cllist')[0].append(temp);
+    // document.body.append(temp);
 
     temp = document.createElement('button');
     temp.textContent = 'Clear';
@@ -33,8 +35,9 @@ function injectText(){
     temp.className="tlid-input-button input-button header-button tlid-input-button-text"
     temp.style="padding-left: 16px; height: 24px;left: 10px;"
     document.getElementsByClassName('tlid-result-view cllist')[0].append(temp);
+    // document.body.append(temp);
 
-
+   
 }
 
 injectCustomJs();
